@@ -1,6 +1,6 @@
 # render-options-injector
 
-A simple library to help injecting render options globally. It can easily inject server environment setting value(development, production, test, ...) into rendering options.
+A simple library to help injecting render options globally. For example, it can be used when injecting server environment setting value(development, production, test, ...) into all view templates.
 
 # Usage
 
