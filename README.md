@@ -26,3 +26,7 @@ And use the options at view templates
 # Warning
 
 render-options-injector reassign app.render function(res.render calls app.render).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/eunjae-lee/render-options-injector/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
