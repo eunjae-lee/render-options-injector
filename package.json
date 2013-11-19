@@ -1,0 +1,35 @@
+{
+  "name": "render-options-injector",
+  "version": "0.0.0",
+  "description": "A simple library to help injecting render options globally",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eunjae-lee/render-options-injector.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+    "connect": "*"
+  },
+  "devDependencies": {
+    "coffee-script": "*"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "render",
+    "options",
+    "inject",
+    "injector"
+  ],
+  "author": "Eunjae Lee <karis612@gmail.com> (http://eunjae.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eunjae-lee/render-options-injector/issues"
+  }
+}
