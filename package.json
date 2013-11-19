@@ -1,6 +1,6 @@
 {
   "name": "render-options-injector",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple library to help injecting render options globally",
   "main": "./out/index",
   "scripts": {
