@@ -6,7 +6,8 @@ lib =
     app._render = app.render
     app.render = (name, options, fn) ->
       if 'function' == typeof options
-        fn = options, options = {}
+        fn = options
+        options = {}
       unless options
         options = {}
       utils.merge options, injectingOptions

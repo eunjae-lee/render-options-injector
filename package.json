@@ -2,7 +2,7 @@
   "name": "render-options-injector",
   "version": "0.0.0",
   "description": "A simple library to help injecting render options globally",
-  "main": "index.coffee",
+  "main": "./out/index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +14,10 @@
     "node": "*"
   },
   "dependencies": {
-    "connect": "*"
+    "connect": "*",
+    "coffee-script": "*"
   },
   "devDependencies": {
-    "coffee-script": "*"
   },
   "keywords": [
     "nodejs",
