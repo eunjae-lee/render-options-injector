@@ -14,11 +14,10 @@
     "node": "*"
   },
   "dependencies": {
-    "connect": "*",
-    "coffee-script": "*"
+    "coffee-script": "*",
+    "utils-merge": "^1.0.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "nodejs",
     "express",

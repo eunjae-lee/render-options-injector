@@ -1,9 +1,7 @@
 (function() {
-  var connect, lib, utils;
+  var lib, merge;
 
-  connect = require('connect');
-
-  utils = connect.utils;
+  merge = require('utils-merge');
 
   lib = {
     inject: function(app, injectingOptions) {
@@ -16,7 +14,7 @@
         if (!options) {
           options = {};
         }
-        utils.merge(options, injectingOptions);
+        merge(options, injectingOptions);
         return app._render.call(app, name, options, fn);
       };
     }
