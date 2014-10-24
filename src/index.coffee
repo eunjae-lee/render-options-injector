@@ -1,5 +1,4 @@
-connect = require 'connect'
-utils = connect.utils
+merge = require 'utils-merge'
 
 lib =
   inject: (app, injectingOptions) ->
@@ -10,7 +9,7 @@ lib =
         options = {}
       unless options
         options = {}
-      utils.merge options, injectingOptions
+      merge options, injectingOptions
       app._render.call app, name, options, fn
 
 module.exports = lib
